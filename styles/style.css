@@ -1,0 +1,39 @@
+@font-face { font-family: Basteleur; src: url('Basteleur-Bold.ttf'); } 
+
+h1 {
+    font-family: Basteleur;
+    color: #69A8A2;
+    font-size: 4em;
+}
+
+h2 {
+    font-family: Basteleur;
+    font-size: 3em;
+    color: #69A8A2;
+    margin-bottom: 15vh;
+}
+
+p {
+    font-style: italic;
+}
+
+body {
+    text-align: center;
+    background-color: #C0DEC7;
+}
+
+img {
+    height: 300px;
+}
+
+.small {
+    height: 150px;
+}
+
+div {
+    margin-top: 30vh;
+}
+
+.img_div {
+    margin-top: 10vh;
+}
