@@ -22,18 +22,24 @@ body {
     background-color: #C0DEC7;
 }
 
-img {
-    height: 300px;
-}
-
-.small {
-    height: 150px;
-}
-
 div {
     margin-top: 30vh;
 }
 
 .img_div {
     margin-top: 10vh;
+}
+
+@media screen and (max-width: 500px) {
+    .small {width: 25vw;}
+    iframe {width: 90vw;}
+    #playlist {width: 90vw;}
+    .book_size {height: 60vw;}
+    #leaf {width: 25vw;}
+}
+
+@media screen and (min-width: 500px) {
+    .small {height: 150px;}
+    img {height: 300px;}
+
 }
